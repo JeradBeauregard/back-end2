@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerad\\Desktop\\testapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\controllers\\itemtypesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itemtypesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\testapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\testapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.ItemxTypes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Items.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204809_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:testapp\\Data\\Migrations\\20250211204809_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\models\\itemxtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\itemxtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Inventory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204019_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:testapp\\Data\\Migrations\\20250211204019_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.ItemTypes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\data\\migrations\\20250203221119_virtualsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\data\\migrations\\20250203221119_virtualsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\testapp\\testapp\\data\\migrations\\20250203191717_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\data\\migrations\\20250203191717_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\UsersAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\UsersAPIController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T23:14:02.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoriesAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\InventoriesAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\InventoriesAPIController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwE4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:01:35.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "testapp\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Services\\UserService.cs",
+              "RelativeToolTip": "testapp\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T00:05:38.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Program.cs",
+              "RelativeDocumentMoniker": "testapp\\Program.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Program.cs",
+              "RelativeToolTip": "testapp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T20:40:47.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemsAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\ItemsAPIController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T23:12:11.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemTypesAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemTypesAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\ItemTypesAPIController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T23:13:06.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "testapp",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\testapp.csproj",
+              "RelativeDocumentMoniker": "testapp\\testapp.csproj",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\testapp.csproj",
+              "RelativeToolTip": "testapp\\testapp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T00:02:27.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\Inventory.cs",
+              "RelativeToolTip": "testapp\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:57:51.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.ItemxTypes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.ItemxTypes.sql",
+              "ToolTip": "dbo.ItemxTypes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-11T19:09:40.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Items [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Items.sql",
+              "ToolTip": "dbo.Items [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-11T19:09:54.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-11T22:39:45.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\Item.cs",
+              "RelativeToolTip": "testapp\\Models\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:58:02.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemType.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\ItemType.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\ItemType.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\ItemType.cs",
+              "RelativeToolTip": "testapp\\Models\\ItemType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:58:14.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemxType.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\ItemxType.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\ItemxType.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\ItemxType.cs",
+              "RelativeToolTip": "testapp\\Models\\ItemxType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:58:25.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250211204809_update.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204809_update.cs",
+              "RelativeDocumentMoniker": "testapp\\Data\\Migrations\\20250211204809_update.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204809_update.cs",
+              "RelativeToolTip": "testapp\\Data\\Migrations\\20250211204809_update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T20:48:09.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250211204019_update.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204019_update.cs",
+              "RelativeDocumentMoniker": "testapp\\Data\\Migrations\\20250211204019_update.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250211204019_update.cs",
+              "RelativeToolTip": "testapp\\Data\\Migrations\\20250211204019_update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T20:40:20.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Inventory [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.Inventory.sql",
+              "ToolTip": "dbo.Inventory [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-11T17:44:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Models\\User.cs",
+              "RelativeToolTip": "testapp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:57:40.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.ItemTypes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_testapp_52174c4c_c016_4f39_a896_2391b359d44d/True/SqlTable/dbo.ItemTypes.sql",
+              "ToolTip": "dbo.ItemTypes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-11T19:08:43.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250203221119_virtualsitems.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250203221119_virtualsitems.cs",
+              "RelativeDocumentMoniker": "testapp\\Data\\Migrations\\20250203221119_virtualsitems.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250203221119_virtualsitems.cs",
+              "RelativeToolTip": "testapp\\Data\\Migrations\\20250203221119_virtualsitems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:11:19.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "testapp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "testapp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:08:04.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250203191717_tables.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250203191717_tables.cs",
+              "RelativeDocumentMoniker": "testapp\\Data\\Migrations\\20250203191717_tables.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\Data\\Migrations\\20250203191717_tables.cs",
+              "RelativeToolTip": "testapp\\Data\\Migrations\\20250203191717_tables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:17:17.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
