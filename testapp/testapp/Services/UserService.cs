@@ -3,10 +3,11 @@ using testapp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using testapp.Interfaces;
 
 namespace testapp.Services  
 {
-	public class UserService
+	public class UserService : IUserService
 	{
 		private readonly ApplicationDbContext _context;
 
@@ -39,19 +40,15 @@ namespace testapp.Services
 		*/
 		/// </example>
 		// method for updating user inventory space
-		public async Task<ActionResult<Object>> updateUserSpace(int userId, int spaceChange)
+		public async Task<string> updateUserSpace(int userId, int spaceChange)
 		{
 			// find user 
 			var user = await _context.Users.FindAsync(userId);
 			user.InventorySpace -= spaceChange;
 			await _context.SaveChangesAsync();
 
-			return new OkObjectResult(new
-			{
-				message = "Inventory space updated successfully.",
-				userId = user.Id,
-				updatedInventorySpace = user.InventorySpace
-			});
+			return "space updated succesfully";
+			// update to return service response
 
 		}
 

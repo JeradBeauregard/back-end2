@@ -8484,11 +8484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\testapp.csproj",
+      "projectUniqueName": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\testapp.csproj",
       "projectName": "testapp",
-      "projectPath": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\testapp.csproj",
+      "projectPath": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\testapp.csproj",
       "packagesPath": "C:\\Users\\jerad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerad\\Desktop\\testapp\\testapp\\obj\\",
+      "outputPath": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

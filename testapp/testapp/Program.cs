@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using testapp.Data;
+using testapp.Interfaces;
 using testapp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,11 @@ builder.Services.AddSwaggerGen();
 
 // builder for user service
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<InventoryService>();
+
+// Associate service interfaces with their implementations
+builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 
 var app = builder.Build();

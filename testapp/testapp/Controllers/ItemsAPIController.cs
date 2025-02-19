@@ -8,6 +8,7 @@ using Microsoft.CodeAnalysis.Elfie.Model.Strings;
 using Microsoft.CodeAnalysis.Elfie.Serialization;
 using Microsoft.EntityFrameworkCore;
 using testapp.Data;
+using testapp.Interfaces;
 using testapp.Models;
 
 namespace testapp.Controllers
@@ -17,10 +18,12 @@ namespace testapp.Controllers
     public class ItemsAPIController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly IItemService _itemService;
 
-        public ItemsAPIController(ApplicationDbContext context)
+        public ItemsAPIController(ApplicationDbContext context, IItemService itemService)
         {
             _context = context;
+            _itemService = itemService;
         }
 
 		/// <summary>
@@ -62,119 +65,38 @@ namespace testapp.Controllers
 		// get item names with item types
 		// GET: api/ItemsAPI
 		[HttpGet]
-        public async Task<ActionResult<IEnumerable<Item>>> GetItems()
+        public async Task<IEnumerable<Item>> GetItems()
         {
-            return await _context.Items.ToListAsync();
+            return await _itemService.GetItems();
         }
 
         [HttpGet("WithTypes")]
 
-        public async Task<ActionResult<IEnumerable<Item>>> GetItemWithTypes()
+        public async Task<IEnumerable<ItemWithTypesDto>> GetItemsWithTypes()
 		{
-            List<Item> Items = await _context.Items
-                .Include(i => i.ItemxType)
-                    .ThenInclude(ix => ix.ItemType)
-                .ToListAsync();
+            IEnumerable<ItemWithTypesDto> results = await _itemService.GetItemsWithTypes();
 
-            List<ItemWithTypesDto> ItemDtos = new List<ItemWithTypesDto>();
-            foreach (Item Item in Items)
-            {
-                ItemWithTypesDto itemWithTypesDto = new ItemWithTypesDto();
-                itemWithTypesDto.Id = Item.Id;
-                itemWithTypesDto.Name = Item.Name;
-                itemWithTypesDto.Types = new List<string>();
-
-                foreach (ItemxType ix in Item.ItemxType)
-                {
-
-                    itemWithTypesDto.Types.Add(ix.ItemType.Type);
-                }
-
-
-
-                ItemDtos.Add(itemWithTypesDto);
-            } 
-
-           
-            return Ok(ItemDtos);
-
+            return results;
         }
 
         // GET: api/ItemsAPI/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Item>> GetItem(int id)
         {
-            var item = await _context.Items.FindAsync(id);
-
-            if (item == null)
-            {
-                return NotFound();
-            }
-
+            Item item = await _itemService.GetItem(id);
             return item;
         }
 
-        // PUT: api/ItemsAPI/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutItem(int id, Item item)
-        {
-            if (id != item.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(item).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ItemExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/ItemsAPI
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Item>> PostItem(Item item)
-        {
-            _context.Items.Add(item);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetItem", new { id = item.Id }, item);
-        }
-
+   
+        
         // DELETE: api/ItemsAPI/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteItem(int id)
+        public async Task<string> DeleteItem(int id)
         {
-            var item = await _context.Items.FindAsync(id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-
-            _context.Items.Remove(item);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+           string result = await _itemService.DeleteItem(id);
+            return result;
         }
 
-        private bool ItemExists(int id)
-        {
-            return _context.Items.Any(e => e.Id == id);
-        }
+    
     }
 }
