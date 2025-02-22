@@ -12,4 +12,12 @@ namespace testapp.Models
 		// Back-reference for Many-to-Many Relationship
 		public virtual List<ItemxType> ItemXTypes { get; set; }
 	}
+
+	public class ItemTypeDto
+	{
+		public int Id { get; set; }
+		public string Type { get; set; }
+	}
+
+	
 }

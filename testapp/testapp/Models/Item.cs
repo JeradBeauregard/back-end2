@@ -16,11 +16,27 @@ namespace testapp.Models
 		public virtual List<ItemxType> ItemxType { get; set; }
 	}
 
+	public class ItemsForTypeDto
+	{
+		public int Id { get; set; }
+		public string Name { get; set; }	
+
+	}
+
 	public class ItemWithTypesDto
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public List<string> Types { get; set; }
+	}
+
+	public class CreateItemDto
+	{
+		public int Id { get; set; }
+		public string Name { get; set; }
+		public string Description { get; set; }
+		public int Value { get; set; }
+
 	}
 
 }

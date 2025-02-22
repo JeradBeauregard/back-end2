@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using testapp.Data;
+using testapp.Interfaces;
 using testapp.Models;
 
 namespace testapp.Controllers
@@ -15,14 +16,16 @@ namespace testapp.Controllers
     public class ItemTypesAPIController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly IItemTypesService _itemTypesService;
 
-        public ItemTypesAPIController(ApplicationDbContext context)
+        public ItemTypesAPIController(ApplicationDbContext context, IItemTypesService itemTypesService)
         {
             _context = context;
+            _itemTypesService = itemTypesService;
         }
 
         // GET: api/ItemTypesAPI
-        
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ItemType>>> GetItemTypes()
         {
@@ -104,6 +107,29 @@ namespace testapp.Controllers
         private bool ItemTypeExists(int id)
         {
             return _context.ItemTypes.Any(e => e.Id == id);
+        }
+
+
+
+        // get types for an item
+        [HttpGet("ItemTypesAPI/GetTypesForItem")]
+
+        public async Task<IEnumerable<ItemTypeDto>> GetTypesForItem(int itemId)
+        {
+            IEnumerable<ItemTypeDto> Result = await _itemTypesService.GetTypesForItem(itemId);
+            return Result;
+        }
+
+        // create new type
+
+        [HttpPost("ItemTypesAPI/CreateItemType")]
+
+        public async Task<ItemType> CreateItemType(string type)
+        {
+            ItemType Result = await _itemTypesService.CreateItemType(type);
+            return Result;
+
+
         }
     }
 }

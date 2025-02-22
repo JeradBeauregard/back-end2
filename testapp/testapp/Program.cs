@@ -26,6 +26,10 @@ builder.Services.AddScoped<InventoryService>();
 // Associate service interfaces with their implementations
 builder.Services.AddScoped<IInventoryService, InventoryService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IItemService, ItemService>();
+builder.Services.AddScoped<IItemTypesService, ItemTypesService>();
+
+
 
 
 var app = builder.Build();

@@ -1,0 +1,13 @@
+﻿@{
+
+    @model IEnumerable<User>
+
+	<a href="/UserPage/New">Create New User</a>
+
+    <ul>
+        @foreach (var User in Model)
+        {
+            <li>@User.Username</li>
+        }
+    </ul>
+}

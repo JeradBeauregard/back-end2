@@ -1,0 +1,14 @@
+﻿
+@{
+
+    @model IEnumerable<Item>
+
+	<a href="/ItemPage/New">Create New Item</a>
+
+    <ul>
+        @foreach (var name in Model)
+        {
+            <li>@name.Name</li>
+        }
+    </ul>
+}

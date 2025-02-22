@@ -1,0 +1,11 @@
+﻿@{
+
+    @model IEnumerable<InventoryDto>
+
+    <ul>
+        @foreach (var Inventory in Model)
+        {
+            <li>Username: @Inventory.Username Item: @Inventory.ItemName Quantity: @Inventory.Quantity</li>
+        }
+    </ul>
+}

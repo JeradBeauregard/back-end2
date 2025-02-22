@@ -26,6 +26,15 @@ namespace testapp.Controllers
             _itemService = itemService;
         }
 
+	
+		// get item names with item types
+		// GET: api/ItemsAPI
+		[HttpGet]
+        public async Task<IEnumerable<Item>> GetItems()
+        {
+            return await _itemService.GetItems();
+        }
+
 		/// <summary>
 		/// Returns a list of all items with their types
 		/// </summary>
@@ -62,15 +71,7 @@ namespace testapp.Controllers
         ]
 		*/
 		/// </example>
-		// get item names with item types
-		// GET: api/ItemsAPI
-		[HttpGet]
-        public async Task<IEnumerable<Item>> GetItems()
-        {
-            return await _itemService.GetItems();
-        }
-
-        [HttpGet("WithTypes")]
+		[HttpGet("WithTypes")]
 
         public async Task<IEnumerable<ItemWithTypesDto>> GetItemsWithTypes()
 		{
@@ -79,8 +80,18 @@ namespace testapp.Controllers
             return results;
         }
 
-        // GET: api/ItemsAPI/5
-        [HttpGet("{id}")]
+        // returns all items of a given type
+
+        [HttpGet("ItemsAPI/GetItemsForType")]
+
+		public async Task<IEnumerable<ItemsForTypeDto>> GetItemsForType(int typeId)
+        {
+			IEnumerable<ItemsForTypeDto> results = await _itemService.GetItemsForType(typeId);
+			return results;
+		}
+
+		// GET: api/ItemsAPI/5
+		[HttpGet("{id}")]
         public async Task<ActionResult<Item>> GetItem(int id)
         {
             Item item = await _itemService.GetItem(id);
@@ -97,6 +108,38 @@ namespace testapp.Controllers
             return result;
         }
 
-    
-    }
+        [HttpPost("ItemsAPI/LinkItemToType")]
+        public async Task<string> LinkItemToType(int itemId, int typeId)
+		{
+			string result = await _itemService.LinkItemToType(itemId, typeId);
+			return result;
+		}
+
+        [HttpPost("ItemsAPI/UnlinkItemToType")]
+		public async Task<string> UnlinkItemToType(int itemId, int typeId)
+		{
+			string result = await _itemService.UnlinkItemToType(itemId, typeId);
+			return result;
+		}
+
+        [HttpPost("ItemsAPI/CreateItem")]
+
+		public async Task<CreateItemDto> CreateItem(string name, string description, int value)
+        {
+
+            CreateItemDto result = await _itemService.CreateItem(name, description, value);
+            
+			return result;
+		}
+
+		[HttpPost("ItemsAPI/EditItem")]
+
+		public async Task<CreateItemDto> EditItem(int id, string name, string description, int value)
+		{
+			CreateItemDto result = await _itemService.EditItem(id, name, description, value);
+			return result;
+		}
+
+
+	}
 }

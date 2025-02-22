@@ -40,6 +40,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/InventoryPage/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5UGFnZVxDb25maXJtRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/InventoryPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5UGFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/InventoryPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5UGFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/InventoryPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5UGFnZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/InventoryPage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5UGFnZVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemPage/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVBhZ2VcQ29uZmlybURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVBhZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVBhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVBhZ2VcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemPage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVBhZ2VcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemTypePage/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVR5cGVQYWdlXENvbmZpcm1EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemTypePage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVR5cGVQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemTypePage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVR5cGVQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemTypePage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVR5cGVQYWdlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/ItemTypePage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVR5cGVQYWdlXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +110,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/UserPage/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhZ2VcQ29uZmlybURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/UserPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/UserPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/UserPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhZ2VcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/UserPage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhZ2VcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jerad/Desktop/back-end2/testapp/testapp/Views/_ViewImports.cshtml]

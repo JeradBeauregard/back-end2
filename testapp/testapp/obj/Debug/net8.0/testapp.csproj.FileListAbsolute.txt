@@ -274,8 +274,6 @@ C:\Users\jerad\Desktop\testapp\testapp\bin\Debug\net8.0\runtimes\win\lib\net7.0\
 C:\Users\jerad\Desktop\testapp\testapp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\jerad\Desktop\testapp\testapp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jerad\Desktop\testapp\testapp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\appsettings.json
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\testapp.staticwebassets.endpoints.json
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\testapp.staticwebassets.runtime.json
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\testapp.exe
@@ -551,3 +549,5 @@ C:\Users\jerad\Desktop\back-end2\testapp\testapp\obj\Debug\net8.0\refint\testapp
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\obj\Debug\net8.0\testapp.pdb
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\obj\Debug\net8.0\testapp.genruntimeconfig.cache
 C:\Users\jerad\Desktop\back-end2\testapp\testapp\obj\Debug\net8.0\ref\testapp.dll
+C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jerad\Desktop\back-end2\testapp\testapp\bin\Debug\net8.0\appsettings.json

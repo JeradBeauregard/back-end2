@@ -11,5 +11,10 @@ namespace testapp.Interfaces
 
 		Task<string> updateUserSpace(int userId, int spaceChange);
 
+		Task<IEnumerable<User>> GetUsers();
+
+		// create user
+		Task<CreateUserDto> PostUser(string username, string password);
+
 	}
 }

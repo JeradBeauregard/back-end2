@@ -115,12 +115,12 @@ namespace testapp.Controllers
         // POST: api/UsersAPI
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<CreateUserDto>> PostUser(string username, string password)
         {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+			CreateUserDto result = await _userService.PostUser(username, password);
+
+            return result;
         }
 
         // DELETE: api/UsersAPI/5

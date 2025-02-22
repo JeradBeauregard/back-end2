@@ -16,6 +16,14 @@ namespace testapp.Services
 		{
 			_context = context;
 		}
+
+		// list users
+		public async Task<IEnumerable<User>> GetUsers()
+		{
+			return await _context.Users.ToListAsync();
+		}
+
+
 		/// <summary>
 		/// updates inventory space for a user
 		/// </summary>
@@ -50,6 +58,31 @@ namespace testapp.Services
 			return "space updated succesfully";
 			// update to return service response
 
+		}
+
+		// create user
+
+		public async Task<CreateUserDto> PostUser(string username, string password)
+		{
+			User user = new User();
+
+			user.Username = username;
+			user.Password = password;
+			user.InventorySpace = 50;
+			user.SolShards = 5000;
+
+			_context.Users.Add(user);
+			await _context.SaveChangesAsync();
+
+			CreateUserDto createUserDto = new CreateUserDto();
+
+			createUserDto.Username = user.Username;
+			createUserDto.Password = user.Password;
+			createUserDto.InventorySpace = user.InventorySpace;
+			createUserDto.SolShards = user.SolShards;
+			
+
+			return createUserDto;
 		}
 
 

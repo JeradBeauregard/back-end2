@@ -7,8 +7,12 @@ namespace testapp.Interfaces
 	{
 
 		// Create
+		Task<ItemType> CreateItemType(string type);
 
 		// Read
+		Task<IEnumerable<ItemType>> GetItemTypes();
+		// get all types for an item
+		Task<IEnumerable<ItemTypeDto>> GetTypesForItem(int itemId);
 
 		// Update
 
