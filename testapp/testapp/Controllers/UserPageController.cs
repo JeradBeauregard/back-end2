@@ -39,9 +39,10 @@ namespace testapp.Controllers
 
 		// Details
 
-		public IActionResult Details()
+		public async  Task<IActionResult> Details(int id)
 		{
-			return View();
+			User user = await _userService.GetUser(id);
+			return View(user);
 		}
 
 		// Delete
@@ -56,6 +57,12 @@ namespace testapp.Controllers
 		public IActionResult Edit()
 		{
 			return View();
+		}
+
+		public async Task<IActionResult> EditUser(int id, string username, string password)
+		{
+			await _userService.EditUser(id, username, password);
+			return RedirectToAction("List");
 		}
 	}
 }

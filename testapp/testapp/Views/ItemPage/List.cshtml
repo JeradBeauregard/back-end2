@@ -6,9 +6,9 @@
 	<a href="/ItemPage/New">Create New Item</a>
 
     <ul>
-        @foreach (var name in Model)
+        @foreach (var item in Model)
         {
-            <li>@name.Name</li>
+            <li><a href="/ItemPage/Details/@item.Id">@item.Name</a></li>
         }
     </ul>
 }

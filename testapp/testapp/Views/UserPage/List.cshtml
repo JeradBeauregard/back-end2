@@ -7,7 +7,7 @@
     <ul>
         @foreach (var User in Model)
         {
-            <li>@User.Username</li>
+            <li><a href="/Userpage/Details/@User.Id">@User.Username</a></li>
         }
     </ul>
 }

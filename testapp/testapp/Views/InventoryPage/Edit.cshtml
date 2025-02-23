@@ -1,5 +1,16 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+	<h1>Edit an inventory Entry: </h1>
+
+	<form id="newInventory" method="post" action="/InventoryPage/EditInventory">
+		<label for="id">ID: </label>
+		<input name="id" id="id" type="number" />
+		<label for="userid">User ID: </label>
+		<input name="userid" id="userid" type="number" />
+		<label for="itemid">Item ID: </label>
+		<input name="itemid" id="itemid" type="number" />
+		<label for="quantity">Quantity: </label>
+		<input name="quantity" id="quantity" type="number" />
+		<button type="submit">Save</button>
+	</form>
 }

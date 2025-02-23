@@ -83,6 +83,47 @@
   },
   {
     "ContainingType": "testapp.Controllers.InventoriesAPIController",
+    "Method": "EditInventory",
+    "RelativePath": "api/InventoriesAPI/EditInventory/{id}/{userId}/{itemId}/{quantity}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "testapp.Models.InventoryDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "testapp.Controllers.InventoriesAPIController",
     "Method": "ListUserInventory",
     "RelativePath": "api/InventoriesAPI/UserInventory/{userId}",
     "HttpMethod": "GET",
@@ -386,32 +427,6 @@
   },
   {
     "ContainingType": "testapp.Controllers.ItemTypesAPIController",
-    "Method": "PostItemType",
-    "RelativePath": "api/ItemTypesAPI",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "itemType",
-        "Type": "testapp.Models.ItemType",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "testapp.Models.ItemType",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "testapp.Controllers.ItemTypesAPIController",
     "Method": "GetItemType",
     "RelativePath": "api/ItemTypesAPI/{id}",
     "HttpMethod": "GET",
@@ -438,43 +453,6 @@
   },
   {
     "ContainingType": "testapp.Controllers.ItemTypesAPIController",
-    "Method": "PutItemType",
-    "RelativePath": "api/ItemTypesAPI/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "itemType",
-        "Type": "testapp.Models.ItemType",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "testapp.Controllers.ItemTypesAPIController",
-    "Method": "DeleteItemType",
-    "RelativePath": "api/ItemTypesAPI/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "testapp.Controllers.ItemTypesAPIController",
     "Method": "CreateItemType",
     "RelativePath": "api/ItemTypesAPI/ItemTypesAPI/CreateItemType",
     "HttpMethod": "POST",
@@ -490,6 +468,32 @@
     "ReturnTypes": [
       {
         "Type": "testapp.Models.ItemType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "testapp.Controllers.ItemTypesAPIController",
+    "Method": "DeleteItemType",
+    "RelativePath": "api/ItemTypesAPI/ItemTypesAPI/DeleteItemType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -604,27 +608,6 @@
   },
   {
     "ContainingType": "testapp.Controllers.UsersAPIController",
-    "Method": "PutUser",
-    "RelativePath": "api/UsersAPI/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "user",
-        "Type": "testapp.Models.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "testapp.Controllers.UsersAPIController",
     "Method": "DeleteUser",
     "RelativePath": "api/UsersAPI/{id}",
     "HttpMethod": "DELETE",
@@ -637,7 +620,53 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "testapp.Controllers.UsersAPIController",
+    "Method": "EditUser",
+    "RelativePath": "api/UsersAPI/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "testapp.Models.CreateUserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "testapp.Controllers.UsersAPIController",

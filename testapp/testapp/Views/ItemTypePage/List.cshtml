@@ -5,7 +5,7 @@
     <ul>
         @foreach (var type in Model)
         {
-            <li>@type.Type</li>
+            <li><a href="/ItemTypePage/Details/@type.Id">@type.Type</a></li>
         }
     </ul>
 }

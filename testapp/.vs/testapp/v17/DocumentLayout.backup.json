@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\itempagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itempagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\inventorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\inventorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\itemtypepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itemtypepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\itemtypesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,36 +63,24 @@
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iitemtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\itemtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\itemtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\inventorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\inventorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,40 +91,68 @@
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\userpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\itemsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\controllers\\inventoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -129,38 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\inventorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\inventorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itempage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itempage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\itemtypepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\itemtypepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\views\\userpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|solutionrelative:testapp\\views\\userpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FD48F39-C00D-4D75-A6E5-8B51D4B6480C}|testapp\\testapp.csproj|c:\\users\\jerad\\desktop\\back-end2\\testapp\\testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -225,136 +225,357 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IInventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IInventoryService.cs",
-              "RelativeDocumentMoniker": "testapp\\Interfaces\\IInventoryService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IInventoryService.cs",
-              "RelativeToolTip": "testapp\\Interfaces\\IInventoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T22:11:11.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemsAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemsAPIController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\ItemsAPIController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAA/wIwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T23:12:11.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "testapp\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\UserService.cs",
-              "RelativeToolTip": "testapp\\Services\\UserService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwEcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T00:05:38.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemService.cs",
-              "RelativeDocumentMoniker": "testapp\\Services\\ItemService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemService.cs",
-              "RelativeToolTip": "testapp\\Services\\ItemService.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAUwNEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T23:51:30.556Z",
+              "Title": "ConfirmDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
+              "RelativeToolTip": "testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:37:15.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Edit.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemPage\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Details.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:35:09.126Z",
+              "WhenOpened": "2025-02-21T21:34:21.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IItemService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemService.cs",
-              "RelativeDocumentMoniker": "testapp\\Interfaces\\IItemService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemService.cs",
-              "RelativeToolTip": "testapp\\Interfaces\\IItemService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wCMAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T23:53:40.629Z",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Edit.cshtml",
+              "RelativeToolTip": "testapp\\Views\\InventoryPage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:34:57.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ConfirmDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:37:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ItemPageController.cs",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemPageController.cs",
               "RelativeDocumentMoniker": "testapp\\Controllers\\ItemPageController.cs",
               "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemPageController.cs",
               "RelativeToolTip": "testapp\\Controllers\\ItemPageController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwEUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T21:38:23.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemTypePageController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypePageController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemTypePageController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypePageController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\ItemTypePageController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T21:38:46.455Z",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\List.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\List.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:33:02.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Details.cshtml",
+              "RelativeToolTip": "testapp\\Views\\InventoryPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:34:30.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Details.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Details.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:34:06.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\New.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\New.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\New.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:36:33.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "InventoryPageController.cs",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoryPageController.cs",
               "RelativeDocumentMoniker": "testapp\\Controllers\\InventoryPageController.cs",
               "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoryPageController.cs",
               "RelativeToolTip": "testapp\\Controllers\\InventoryPageController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswD8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T21:39:44.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "testapp\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemService.cs",
+              "RelativeToolTip": "testapp\\Services\\ItemService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:51:30.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "testapp\\Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\InventoryService.cs",
+              "RelativeToolTip": "testapp\\Services\\InventoryService.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAmwMwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T22:09:01.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Details.cshtml",
+              "RelativeToolTip": "testapp\\Views\\UserPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:33:54.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ItemTypePageController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypePageController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemTypePageController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypePageController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\ItemTypePageController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:38:46.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IItemTypesService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemTypesService.cs",
+              "RelativeDocumentMoniker": "testapp\\Interfaces\\IItemTypesService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemTypesService.cs",
+              "RelativeToolTip": "testapp\\Interfaces\\IItemTypesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:54:18.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemTypesAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemTypesAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\ItemTypesAPIController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T23:13:06.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemService.cs",
+              "RelativeDocumentMoniker": "testapp\\Interfaces\\IItemService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemService.cs",
+              "RelativeToolTip": "testapp\\Interfaces\\IItemService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:53:40.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemTypesService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemTypesService.cs",
+              "RelativeDocumentMoniker": "testapp\\Services\\ItemTypesService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemTypesService.cs",
+              "RelativeToolTip": "testapp\\Services\\ItemTypesService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:52:22.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\List.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\List.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\List.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:32:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Edit.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:35:19.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\List.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\List.cshtml",
+              "RelativeToolTip": "testapp\\Views\\InventoryPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:31:35.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\List.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\List.cshtml",
+              "RelativeToolTip": "testapp\\Views\\UserPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:32:26.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserPageController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UserPageController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\UserPageController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UserPageController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\UserPageController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:39:05.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "testapp\\Interfaces\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IInventoryService.cs",
+              "RelativeToolTip": "testapp\\Interfaces\\IInventoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T22:11:11.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InventoriesAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\InventoriesAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\InventoriesAPIController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:01:35.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "testapp\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\UserService.cs",
+              "RelativeToolTip": "testapp\\Services\\UserService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T00:05:38.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "testapp\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "testapp\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:11:33.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsersAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\UsersAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\UsersAPIController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T23:14:02.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "ItemType.cs",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\ItemType.cs",
               "RelativeDocumentMoniker": "testapp\\Models\\ItemType.cs",
@@ -367,72 +588,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemTypesAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemTypesAPIController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemTypesAPIController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\ItemTypesAPIController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T23:13:06.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IItemTypesService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemTypesService.cs",
-              "RelativeDocumentMoniker": "testapp\\Interfaces\\IItemTypesService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IItemTypesService.cs",
-              "RelativeToolTip": "testapp\\Interfaces\\IItemTypesService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T23:54:18.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ItemTypesService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemTypesService.cs",
-              "RelativeDocumentMoniker": "testapp\\Services\\ItemTypesService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\ItemTypesService.cs",
-              "RelativeToolTip": "testapp\\Services\\ItemTypesService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T23:52:22.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "New.cshtml",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\New.cshtml",
               "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\New.cshtml",
               "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\New.cshtml",
               "RelativeToolTip": "testapp\\Views\\InventoryPage\\New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-21T21:36:12.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\Inventory.cs",
-              "RelativeDocumentMoniker": "testapp\\Models\\Inventory.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\Inventory.cs",
-              "RelativeToolTip": "testapp\\Models\\Inventory.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wCEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T18:57:51.39Z",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Edit.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemPage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:35:09.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Edit.cshtml",
+              "RelativeToolTip": "testapp\\Views\\UserPage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:35:28.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\User.cs",
+              "RelativeToolTip": "testapp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:57:40.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\Item.cs",
               "RelativeDocumentMoniker": "testapp\\Models\\Item.cs",
@@ -445,20 +653,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\InventoryService.cs",
-              "RelativeDocumentMoniker": "testapp\\Services\\InventoryService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Services\\InventoryService.cs",
-              "RelativeToolTip": "testapp\\Services\\InventoryService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwE4AAABQAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "ItemsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
+              "RelativeDocumentMoniker": "testapp\\Controllers\\ItemsAPIController.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\ItemsAPIController.cs",
+              "RelativeToolTip": "testapp\\Controllers\\ItemsAPIController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAA/wIwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T22:09:01.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T23:12:11.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\New.cshtml",
+              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\New.cshtml",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\New.cshtml",
+              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\New.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:36:33.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "testapp\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\Inventory.cs",
+              "RelativeToolTip": "testapp\\Models\\Inventory.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:57:51.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "New.cshtml",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\New.cshtml",
               "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\New.cshtml",
@@ -466,72 +697,11 @@
               "RelativeToolTip": "testapp\\Views\\UserPage\\New.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:36:42.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T21:36:42.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "testapp\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "testapp\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T23:11:33.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\List.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\List.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\List.cshtml",
-              "RelativeToolTip": "testapp\\Views\\UserPage\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:32:26.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsersAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\UsersAPIController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UsersAPIController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\UsersAPIController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswHYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T23:14:02.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserPageController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UserPageController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\UserPageController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\UserPageController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\UserPageController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T21:39:05.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "testapp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Models\\User.cs",
-              "RelativeToolTip": "testapp\\Models\\User.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T18:57:40.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "New.cshtml",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\New.cshtml",
               "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\New.cshtml",
@@ -543,67 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\List.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\List.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\List.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:32:38.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\List.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\List.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\List.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemPage\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:33:02.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "InventoriesAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
-              "RelativeDocumentMoniker": "testapp\\Controllers\\InventoriesAPIController.cs",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Controllers\\InventoriesAPIController.cs",
-              "RelativeToolTip": "testapp\\Controllers\\InventoriesAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:01:35.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ConfirmDelete.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemPage\\ConfirmDelete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:37:28.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\List.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\List.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\List.cshtml",
-              "RelativeToolTip": "testapp\\Views\\InventoryPage\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:31:35.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "ConfirmDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\ConfirmDelete.cshtml",
               "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\ConfirmDelete.cshtml",
@@ -615,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "ConfirmDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\ConfirmDelete.cshtml",
               "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\ConfirmDelete.cshtml",
@@ -624,102 +734,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-21T21:37:37.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ConfirmDelete.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
-              "RelativeToolTip": "testapp\\Views\\InventoryPage\\ConfirmDelete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:37:15.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Edit.cshtml",
-              "RelativeToolTip": "testapp\\Views\\UserPage\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:35:28.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Edit.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:35:19.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Edit.cshtml",
-              "RelativeToolTip": "testapp\\Views\\InventoryPage\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:34:57.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Details.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\InventoryPage\\Details.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\InventoryPage\\Details.cshtml",
-              "RelativeToolTip": "testapp\\Views\\InventoryPage\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:34:30.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Details.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemPage\\Details.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemPage\\Details.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemPage\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:34:21.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Details.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\ItemTypePage\\Details.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\ItemTypePage\\Details.cshtml",
-              "RelativeToolTip": "testapp\\Views\\ItemTypePage\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:34:06.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Details.cshtml",
-              "RelativeDocumentMoniker": "testapp\\Views\\UserPage\\Details.cshtml",
-              "ToolTip": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\Views\\UserPage\\Details.cshtml",
-              "RelativeToolTip": "testapp\\Views\\UserPage\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T21:33:54.715Z"
             },
             {
               "$type": "Document",

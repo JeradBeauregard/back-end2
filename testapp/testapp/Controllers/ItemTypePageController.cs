@@ -42,9 +42,11 @@ namespace testapp.Controllers
 
 		// Details
 
-		public IActionResult Details()
+		public async Task<IActionResult> Details(int Id)
 		{
-			return View();
+
+			ItemType itemType = await _itemTypeService.GetItemType(Id);
+			return View(itemType);
 		}
 
 		// Delete
@@ -59,6 +61,12 @@ namespace testapp.Controllers
 		public IActionResult Edit()
 		{
 			return View();
+		}
+
+		public async Task<IActionResult> EditItemType(int id, string type)
+		{
+			await _itemTypeService.EditItemType(id, type);
+			return RedirectToAction("List");
 		}
 	}
 }

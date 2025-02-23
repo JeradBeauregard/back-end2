@@ -17,6 +17,21 @@ namespace testapp.Services
 			_context = context;
 		}
 
+		// get individual user
+		public async Task<User> GetUser(int id)
+		{
+			var user = await _context.Users.FindAsync(id);
+
+			if (user == null)
+			{
+				User userError = new User();
+				user.Username = "User not found";
+				return userError;
+			}
+
+			return user;
+		}
+
 		// list users
 		public async Task<IEnumerable<User>> GetUsers()
 		{
@@ -83,6 +98,38 @@ namespace testapp.Services
 			
 
 			return createUserDto;
+		}
+
+		// edit an existing user
+
+		public async Task<CreateUserDto> EditUser(int id, string username, string password)
+		{
+			User user = await _context.Users.FindAsync(id);
+			user.Username = username;
+			user.Password = password;
+			_context.Users.Update(user);
+			await _context.SaveChangesAsync();
+			CreateUserDto createUserDto = new CreateUserDto();
+			createUserDto.Username = user.Username;
+			createUserDto.Password = user.Password;
+			createUserDto.InventorySpace = user.InventorySpace;
+			createUserDto.SolShards = user.SolShards;
+			return createUserDto;
+		}
+
+		// delete user
+
+		public async Task<string> DeleteUser(int id)
+		{
+			User user = await _context.Users.FindAsync(id);
+
+			if (user == null)
+			{
+				return "user not found";
+			}
+			_context.Users.Remove(user);
+			await _context.SaveChangesAsync();
+			return "user deleted";
 		}
 
 

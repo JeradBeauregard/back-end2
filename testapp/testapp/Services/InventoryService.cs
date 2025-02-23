@@ -47,6 +47,34 @@ namespace testapp.Services
 
 		}
 
+		// list singele inventory entry
+
+		public async Task<InventoryDto> ListInventory(int id)
+		{
+			Inventory inventory = await _context.Inventory
+				.Include(i => i.User)
+				.Include(i => i.Item)
+				.FirstOrDefaultAsync(i => i.Id == id);
+
+			if (inventory == null)
+			{
+				InventoryDto inventoryError = new InventoryDto();
+				inventoryError.ItemName = "Inventory entry not found";
+				return inventoryError;
+			}
+
+			InventoryDto inventoryDto = new InventoryDto();
+			inventoryDto.Id = inventory.Id;
+			inventoryDto.Quantity = inventory.Quantity;
+			inventoryDto.UserId = inventory.UserId;
+			inventoryDto.Username = inventory.User.Username;
+			inventoryDto.ItemId = inventory.ItemId;
+			inventoryDto.ItemName = inventory.Item.Name;
+
+			return inventoryDto;
+
+		}
+
 		// list all inventory entries with item information
 		public async Task<IEnumerable<InventoryDto>> ListInventories()
 		{
@@ -124,12 +152,48 @@ namespace testapp.Services
 			}
 		}
 
+		// edit inventory entry
+
+		public async Task<InventoryDto> EditInventory(int id, int userid, int itemid, int quantity)
+		{
+
+
+			// find inventory entry
+			Inventory inventory = await _context.Inventory.FindAsync(id);
+
+			int currentQuantity = inventory.Quantity;
+
+
+			inventory.UserId = userid;
+			inventory.ItemId = itemid;
+			inventory.Quantity = quantity;
+			await _context.SaveChangesAsync();
+
+			// update user space based on difference in quantity before and after edit
+
+			int quantityChange = quantity - currentQuantity;
+			await _userService.updateUserSpace(userid, quantityChange);
+
+
+			InventoryDto inventoryDto = new InventoryDto();
+			inventoryDto.Id = inventory.Id;
+			inventoryDto.UserId = inventory.UserId;
+			inventoryDto.ItemId = inventory.ItemId;
+			inventoryDto.Quantity = inventory.Quantity;
+
+
+			return inventoryDto;
+
+
+		}
+
+
 			// delete inventory entry
 
 
-			// delete an inventory entry by id
-			// DELETE: api/InventoriesAPI/5
-			
+		// delete an inventory entry by id
+		// DELETE: api/InventoriesAPI/5
+
 			public async Task<string> DeleteInventory(int id)
 			{
 				var inventory = await _context.Inventory.FindAsync(id);
@@ -138,7 +202,8 @@ namespace testapp.Services
 					return "inventory entry not found";
 				}
 
-				_context.Inventory.Remove(inventory);
+				await _userService.updateUserSpace(inventory.UserId, -inventory.Quantity);
+			_context.Inventory.Remove(inventory);
 				await _context.SaveChangesAsync();
 
 				return "entry deleted";

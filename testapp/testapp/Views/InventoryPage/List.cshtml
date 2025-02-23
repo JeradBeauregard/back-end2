@@ -5,7 +5,7 @@
     <ul>
         @foreach (var Inventory in Model)
         {
-            <li>Username: @Inventory.Username Item: @Inventory.ItemName Quantity: @Inventory.Quantity</li>
+            <li><a href="/InventoryPage/Details/@Inventory.Id">Username: @Inventory.Username Item: @Inventory.ItemName Quantity: @Inventory.Quantity</a></li>
         }
     </ul>
 }

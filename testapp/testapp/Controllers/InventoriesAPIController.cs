@@ -132,6 +132,15 @@ namespace testapp.Controllers
 
         }
 
+        // edit inventory
+        [HttpPost("EditInventory/{id}/{userId}/{itemId}/{quantity}")]
+		public async Task<ActionResult<InventoryDto>> EditInventory(int id, int userId, int itemId, int quantity)
+        {
+            InventoryDto Result = await _inventoryService.EditInventory(id,userId,itemId,quantity);
+            return Ok(Result);
+
+		}
+
         // delete an inventory entry by id
         // DELETE: api/InventoriesAPI/5
         [HttpDelete("{id}")]

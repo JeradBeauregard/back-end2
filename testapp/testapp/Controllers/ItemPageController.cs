@@ -44,18 +44,26 @@ namespace testapp.Controllers
 
 		// Details
 
-		public IActionResult Details()
+		public async Task<IActionResult> Details(int Id)
 		{
-			return View();
+			Item item = await _itemService.GetItem(Id);
+			return View(item);
 		}
 
 		// Delete
 
-		public IActionResult confirmDelete()
+		public async Task<IActionResult> ConfirmDelete(int Id)
 		{
-			return View();
+			Item item = await _itemService.GetItem(Id);
+			return View(item);
+			
 		}
 
+		public async Task<IActionResult> Delete(int Id)
+		{
+			await _itemService.DeleteItem(Id);
+			return RedirectToAction("List");
+		}
 		// Edit
 
 		public IActionResult Edit()

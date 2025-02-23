@@ -22,7 +22,7 @@ namespace testapp.Controllers
 		{
 
 			IEnumerable<InventoryDto> Inventories = await _inventoryService.ListInventories(); // Get Inventorys from Inventory Service
-			
+
 			return View(Inventories);
 		}
 
@@ -41,16 +41,26 @@ namespace testapp.Controllers
 		}
 		// Details
 
-		public IActionResult Details()
+		public async Task<IActionResult> Details(int id)
 		{
-			return View();
+
+			InventoryDto inventory = await _inventoryService.ListInventory(id); // Get Inventory from Inventory Service
+			return View(inventory);
 		}
 
 		// Delete
 
-		public IActionResult confirmDelete()
+		public async Task<IActionResult> ConfirmDelete(int Id)
 		{
-			return View();
+
+			InventoryDto inventory = await _inventoryService.ListInventory(Id); // Get Inventory from Inventory Service
+			return View(inventory);
+		}
+
+		public async Task<IActionResult> Delete(int Id)
+		{
+			string result = await _inventoryService.DeleteInventory(Id);
+			return RedirectToAction("List");
 		}
 
 		// Edit
@@ -60,8 +70,12 @@ namespace testapp.Controllers
 			return View();
 		}
 
-
+		public async Task<IActionResult> EditInventory(int id, int userId, int itemId, int quantity)
+		{
+			await _inventoryService.EditInventory(id, userId, itemId, quantity);
+			return RedirectToAction("List");
 
 
 		}
+	}
 }
