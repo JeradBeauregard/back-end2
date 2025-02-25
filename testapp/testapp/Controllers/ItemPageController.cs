@@ -53,11 +53,14 @@ namespace testapp.Controllers
 
 			IEnumerable<ItemType> allTypes = await _itemTypesService.GetItemTypes();
 
+			IEnumerable<UserByItemDto> users = await _itemService.ListUsersByItem(Id);
+
 			ItemDetailsViewModel itemDetails = new ItemDetailsViewModel
 			{
 				Item = item,
 				ItemTypes = itemTypes,
-				AllItemTypes = allTypes
+				AllItemTypes = allTypes,
+				UserByItem = users
 			};
 
 			return View(itemDetails);

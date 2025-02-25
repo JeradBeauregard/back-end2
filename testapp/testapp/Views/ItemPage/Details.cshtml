@@ -12,16 +12,16 @@
 
 	foreach (var itemType in item.ItemTypes)
 	{
-		
+
 		<div>
-		<a href="/ItemTypePage/Details/@itemType.Id">@itemType.Type</a>
+			<a href="/ItemTypePage/Details/@itemType.Id">@itemType.Type</a>
 			<form method="post" action="/ItemPage/UnlinkItemFromType">
 				<input type="hidden" name="typeId" value="@itemType.Id" />
 				<input type="hidden" name="itemId" value="@item.Item.Id" />
-		<button type="submit">Unlink</button>
-		</form>
+				<button type="submit">Unlink</button>
+			</form>
 		</div>
-	
+
 	}
 
 	<h4>Link New Type</h4>
@@ -43,4 +43,25 @@
 
 	<div><a href="/ItemPage/Edit/@item.Item.Id">Edit This Item</a></div>
 	<div><a href="/ItemPage/ConfirmDelete/@item.Item.Id">Delete This Item</a></div>
+
+	<h3>Users That Own This Item</h3>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Username</th>
+				<th>Quantity</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var user in item.UserByItem)
+			{
+				<tr>
+					<td><a href="/UserPage/Details/@user.UserId">@user.Username</a></td>
+					<td>@user.Quantity</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
 }

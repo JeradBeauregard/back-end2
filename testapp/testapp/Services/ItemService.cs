@@ -20,6 +20,27 @@ namespace testapp.Services
 
 		// read
 
+		// list users that own a specific item
+
+		public async Task<IEnumerable<UserByItemDto>> ListUsersByItem(int itemId)
+		{
+			List<Inventory> inventories = await _context.Inventory
+				.Where(i => i.ItemId == itemId)
+				.Include(i => i.User)
+				.Include(i => i.Item)
+				.ToListAsync();
+
+			IEnumerable<UserByItemDto> userByItemDtos = inventories.Select(i => new UserByItemDto
+			{
+				UserId = i.UserId,
+				Username = i.User.Username,
+				Quantity = i.Quantity
+			});
+
+
+			return userByItemDtos;
+		}
+
 		// get single item
 		public async Task<Item> GetItem(int id)
 		{

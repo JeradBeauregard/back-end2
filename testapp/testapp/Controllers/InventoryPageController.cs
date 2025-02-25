@@ -66,7 +66,7 @@ namespace testapp.Controllers
 
 		public async Task<IActionResult> DeleteInventoryFromUserDetails(int Id, int UserId)
 		{
-			// await _inventoryService.DeleteInventory(Id);
+			await _inventoryService.DeleteInventory(Id);
 			return RedirectToAction("Details","UserPage", new { id = UserId });
 		}
 

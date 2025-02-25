@@ -98,7 +98,7 @@ namespace testapp.Services
 
 			// add code to order by user id
 
-			return InventoryDtos;
+			return InventoryDtos.OrderBy(i => i.UserId);
 		}
 
 
@@ -151,6 +151,10 @@ namespace testapp.Services
 
 			}
 		}
+
+		
+
+	
 
 		// edit inventory entry
 

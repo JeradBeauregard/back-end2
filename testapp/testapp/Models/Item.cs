@@ -38,6 +38,21 @@ namespace testapp.Models
 		public int Value { get; set; }
 
 	}
+
+	public class UserByItemDto
+	{
+		public int Id { get; set; }
+
+		public string ItemName { get; set; }
+
+		public int Quantity { get; set; }
+
+		public string Username { get; set; }
+
+		public int UserId { get; set; }
+
+
+	}
 	// model for item view model (contains item and item types information)
 	public class ItemDetailsViewModel
 	{
@@ -45,6 +60,8 @@ namespace testapp.Models
 		public IEnumerable<ItemTypeDto> ItemTypes { get; set; }
 
 		public IEnumerable<ItemType> AllItemTypes { get; set; }
+
+		public IEnumerable<UserByItemDto> UserByItem { get; set; }
 	}
 
 }

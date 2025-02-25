@@ -2,14 +2,39 @@
 
     @model IEnumerable<InventoryDto>
 
+    <h3>Actions</h3>
+
 	<a href="/InventoryPage/New">Add New Inventory Entry</a>
+	<a href="/">Back to Home</a>
 
-	<h2>Inventory</h2>
+	<h3>Inventory Entries</h3>
 
-    <ul>
-        @foreach (var Inventory in Model)
-        {
-            <li><a href="/InventoryPage/Details/@Inventory.Id">Username: @Inventory.Username Item: @Inventory.ItemName Quantity: @Inventory.Quantity</a></li>
-        }
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Inventory ID</th>
+                <th>User ID</th>
+                <th>Username</th>
+                <th>Item ID</th>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Inventory in Model)
+            {
+                <tr>
+					<td>@Inventory.Id</td>
+					<td>@Inventory.UserId</td>
+                    <td>@Inventory.Username</td>
+					<td>@Inventory.ItemId</td>
+                    <td>@Inventory.ItemName</td>
+                    <td>@Inventory.Quantity</td>
+                    <td><a href="/InventoryPage/ConfirmDelete/@Inventory.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 }

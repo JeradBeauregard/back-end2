@@ -13,6 +13,8 @@ namespace testapp.Interfaces
 
 		// read
 
+		Task<IEnumerable<UserByItemDto>> ListUsersByItem(int itemId);
+
 		Task<IEnumerable<Item>> GetItems();
 
 		Task<Item> GetItem(int id);

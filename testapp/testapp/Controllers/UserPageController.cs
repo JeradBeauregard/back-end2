@@ -10,11 +10,13 @@ namespace testapp.Controllers
 		// Dependancy Injection	
 		private readonly IUserService _userService;
 		private readonly IInventoryService _inventoryService;
+		private readonly IItemService _itemService;
 
-		public UserPageController(IUserService userService, IInventoryService inventoryService)
+		public UserPageController(IUserService userService, IInventoryService inventoryService, IItemService itemService)
 		{
 			_userService = userService; // Dependancy Injection: User Service
-			_inventoryService = inventoryService;	
+			_inventoryService = inventoryService;
+			_itemService = itemService;
 		}
 
 		// List
@@ -39,17 +41,30 @@ namespace testapp.Controllers
 			return RedirectToAction("List");
 		}
 
+		// Add to user inventory
+
+		public async Task<IActionResult> AddToInventory(int userId, int itemId, int quantity)
+		{
+			string result = await _inventoryService.AddToInventory(userId, itemId, quantity);
+			return RedirectToAction("Details", new { id = userId });
+		}
+
 		// Details
 
 		public async  Task<IActionResult> Details(int id)
 		{
 			User user = await _userService.GetUser(id);
 			IEnumerable<InventoryDto> inventory = await _inventoryService.ListUserInventory(id);
+			IEnumerable<Item> items = await  _itemService.GetItems();
+
+			// Order items alphabetically by name
+			items = items.OrderBy(i => i.Name);
 
 			UserDetailsViewModel userDetails = new UserDetailsViewModel
 			{
 				User = user,
-				Inventory = inventory
+				Inventory = inventory,
+				AllItems = items
 			};
 
 			return View(userDetails);
