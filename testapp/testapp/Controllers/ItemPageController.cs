@@ -9,10 +9,11 @@ namespace testapp.Controllers
 	{
 		// Dependancy Injection
 		private readonly IItemService _itemService;
-
-		public ItemPageController(IItemService itemService)
+		private readonly IItemTypesService _itemTypesService;
+		public ItemPageController(IItemService itemService, IItemTypesService itemTypesService)
 		{
 			_itemService = itemService; // Dependancy Injection: Item Service
+			_itemTypesService = itemTypesService;
 		}
 
 
@@ -47,7 +48,35 @@ namespace testapp.Controllers
 		public async Task<IActionResult> Details(int Id)
 		{
 			Item item = await _itemService.GetItem(Id);
-			return View(item);
+			
+			IEnumerable<ItemTypeDto> itemTypes = await _itemTypesService.GetTypesForItem(Id);
+
+			IEnumerable<ItemType> allTypes = await _itemTypesService.GetItemTypes();
+
+			ItemDetailsViewModel itemDetails = new ItemDetailsViewModel
+			{
+				Item = item,
+				ItemTypes = itemTypes,
+				AllItemTypes = allTypes
+			};
+
+			return View(itemDetails);
+
+			
+		}
+
+		// link and unlink
+
+		public async Task<IActionResult> LinkItemToType(int itemId, int typeId)
+		{
+			await _itemService.LinkItemToType(itemId, typeId);
+			return RedirectToAction("Details", new { id = itemId });
+		}
+
+		public async Task<IActionResult> UnlinkItemFromType(int itemId, int typeId)
+		{
+			await _itemService.UnlinkItemToType(itemId, typeId);
+			return RedirectToAction("Details", new { id = itemId });
 		}
 
 		// Delete
@@ -65,6 +94,8 @@ namespace testapp.Controllers
 			return RedirectToAction("List");
 		}
 		// Edit
+
+		
 
 		public IActionResult Edit()
 		{

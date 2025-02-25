@@ -3,6 +3,11 @@
 	@model testapp.Models.InventoryDto
 	var inventory = Model;
 
+	<a href="/InventoryPage/List">Back to Inventory List</a>
 	<h1>Inventory Row Details: @inventory.Id @inventory.ItemName</h1>
+
+	
+
+
 	<a href="/InventoryPage/ConfirmDelete/@inventory.Id">Delete This Inventory Entry</a>
 }

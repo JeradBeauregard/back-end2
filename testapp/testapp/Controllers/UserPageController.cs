@@ -9,10 +9,12 @@ namespace testapp.Controllers
 
 		// Dependancy Injection	
 		private readonly IUserService _userService;
+		private readonly IInventoryService _inventoryService;
 
-		public UserPageController(IUserService userService)
+		public UserPageController(IUserService userService, IInventoryService inventoryService)
 		{
 			_userService = userService; // Dependancy Injection: User Service
+			_inventoryService = inventoryService;	
 		}
 
 		// List
@@ -42,14 +44,31 @@ namespace testapp.Controllers
 		public async  Task<IActionResult> Details(int id)
 		{
 			User user = await _userService.GetUser(id);
-			return View(user);
+			IEnumerable<InventoryDto> inventory = await _inventoryService.ListUserInventory(id);
+
+			UserDetailsViewModel userDetails = new UserDetailsViewModel
+			{
+				User = user,
+				Inventory = inventory
+			};
+
+			return View(userDetails);
 		}
 
 		// Delete
 
-		public IActionResult confirmDelete()
+		public async Task<IActionResult> ConfirmDelete(int Id)
 		{
-			return View();
+			
+			User user = await _userService.GetUser(Id);
+
+			return View(user);
+		}
+
+		public async Task<IActionResult> Delete(int Id)
+		{
+			await _userService.DeleteUser(Id);
+			return RedirectToAction("List");
 		}
 
 		// Edit

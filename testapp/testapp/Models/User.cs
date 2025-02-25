@@ -25,4 +25,10 @@ namespace testapp.Models
 		public int InventorySpace { get; set; }
 		public int SolShards { get; set; }
 	}
+
+	public class UserDetailsViewModel
+	{
+		public User User { get; set; }
+		public IEnumerable<InventoryDto> Inventory { get; set; }
+	}
 }

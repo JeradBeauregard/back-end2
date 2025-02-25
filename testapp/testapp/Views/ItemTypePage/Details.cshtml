@@ -1,8 +1,19 @@
 ﻿
 @{
 
-	@model testapp.Models.ItemType
+	@model testapp.Models.ItemTypeDetailsViewModel
 	var itemType = Model;
 
-	<h1>Item Type Details: @itemType.Type</h1>
+	<h1>Item Type Details: @itemType.ItemType.Type</h1>
+	
+	<h3>@itemType.ItemType.Type Items</h3>
+
+	foreach (var item in itemType.Items)
+	{
+		<p><a href="/ItemPage/Details/@item.Id"> @item.Name</a></p>
+	}
+
+	<h3>Actions</h3>
+
+	<a href="/ItemTypePage/ConfirmDelete/@itemType.ItemType.Id">Delete This Item Type</a>
 }

@@ -38,5 +38,13 @@ namespace testapp.Models
 		public int Value { get; set; }
 
 	}
+	// model for item view model (contains item and item types information)
+	public class ItemDetailsViewModel
+	{
+		public Item Item { get; set; }
+		public IEnumerable<ItemTypeDto> ItemTypes { get; set; }
+
+		public IEnumerable<ItemType> AllItemTypes { get; set; }
+	}
 
 }

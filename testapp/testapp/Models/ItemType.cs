@@ -19,5 +19,11 @@ namespace testapp.Models
 		public string Type { get; set; }
 	}
 
-	
+	public class ItemTypeDetailsViewModel
+	{
+		public ItemType ItemType { get; set; }
+		public IEnumerable<ItemsForTypeDto> Items { get; set; }
+	}
+
+
 }

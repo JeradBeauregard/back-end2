@@ -1,8 +1,46 @@
 ﻿
 @{
-	@model testapp.Models.Item
+	@model testapp.Models.ItemDetailsViewModel
 	var item = Model;
+	<a href="/ItemPage/List">Back to Item List</a>
+	<h1>Item Details: @item.Item.Name</h1>
+	<p>Item ID: @item.Item.Id</p>
+	<p>Item Description: @item.Item.Description</p>
+	<p>Amount in existence: ?</p>
 
-	<h1>Item Details: @item.Name</h1>
-	<a href="/ItemPage/ConfirmDelete/@item.Id">Delete This Item</a>
+	<h3>Types</h3>
+
+	foreach (var itemType in item.ItemTypes)
+	{
+		
+		<div>
+		<a href="/ItemTypePage/Details/@itemType.Id">@itemType.Type</a>
+			<form method="post" action="/ItemPage/UnlinkItemFromType">
+				<input type="hidden" name="typeId" value="@itemType.Id" />
+				<input type="hidden" name="itemId" value="@item.Item.Id" />
+		<button type="submit">Unlink</button>
+		</form>
+		</div>
+	
+	}
+
+	<h4>Link New Type</h4>
+
+
+	<form method="post" action="/ItemPage/LinkItemToType">
+		<input type="hidden" name="itemId" value="@item.Item.Id" />
+		<select name="typeId">
+			@foreach (var itemType in item.AllItemTypes)
+			{
+				<option value="@itemType.Id">@itemType.Type</option>
+			}
+		</select>
+		<button type="submit">Link</button>
+	</form>
+
+
+	<h3>Actions</h3>
+
+	<div><a href="/ItemPage/Edit/@item.Item.Id">Edit This Item</a></div>
+	<div><a href="/ItemPage/ConfirmDelete/@item.Item.Id">Delete This Item</a></div>
 }

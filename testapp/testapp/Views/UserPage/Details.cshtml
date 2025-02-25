@@ -1,8 +1,59 @@
 ﻿
 @{
-	@model testapp.Models.User
-	var user = Model;
+	@model testapp.Models.UserDetailsViewModel
+	var userDetails = Model;
 
-	<h1>User Details: @user.Username</h1>
+	<h1>User Details: @userDetails.User.Username</h1>
+
+
+	// Display the username
+	// Display password LOL
+	// Display inventory space
+	// Display solshards
+
+
+		<div><strong>Username:</strong> @userDetails.User.Username</div>
+		<div><strong>Password:</strong> @userDetails.User.Password</div>
+		<div><strong>Sol-Shards:</strong> @userDetails.User.SolShards</div>
+		<div><strong>Inventory Space:</strong> @userDetails.User.InventorySpace</div>
+		
+
+	<h3>Inventory of @userDetails.User.Username</h3>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Item Name  </th>
+				<th>Item Quantity  </th>
+				<th>Item Details  </th>
+				<th>Delete Entry  </th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in userDetails.Inventory)
+			{
+				<tr>
+					<td>@item.ItemName</td>
+					<td>@item.Quantity</td>
+					<td><a href="/ItemPage/Details/@item.Id">[Details]</a></td>
+					<td>
+						<form method="post" action="/InventoryPage/DeleteInventoryFromUserDetails">
+					<input type="hidden" value="@item.Id" name="Id"/>
+					<input type="hidden" value="@userDetails.User.Id" name="UserId"/>
+					<button type="submit">Delete</button>
+					</form></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+	// Display inventory items
+	// Display item name
+	// Display Quantity
+
+	<h3>Actions</h3>
+	<a href="/UserPage/Edit/@userDetails.User.Id">Edit This User</a>
+	<a href="/UserPage/ConfirmDelete/@userDetails.User.Id">Delete This User</a>
+
 	
 }

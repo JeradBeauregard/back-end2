@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using testapp.Interfaces;
 using testapp.Models;
+using testapp.Services;
 
 namespace testapp.Controllers
 {
@@ -61,6 +62,12 @@ namespace testapp.Controllers
 		{
 			string result = await _inventoryService.DeleteInventory(Id);
 			return RedirectToAction("List");
+		}
+
+		public async Task<IActionResult> DeleteInventoryFromUserDetails(int Id, int UserId)
+		{
+			// await _inventoryService.DeleteInventory(Id);
+			return RedirectToAction("Details","UserPage", new { id = UserId });
 		}
 
 		// Edit

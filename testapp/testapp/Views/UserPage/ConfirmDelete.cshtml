@@ -1,5 +1,12 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+	@model testapp.Models.User
+	var user = Model;
+
+	<h1>Are you sure you want to delete this Item? @user.Username</h1>
+
+	<form method="post" action="/UserPage/Delete/@user.Id">
+
+		<button type="submit">Delete</button>
+	</form>
 }
