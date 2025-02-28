@@ -22,7 +22,7 @@ namespace testapp.Interfaces
 
 		// edit user
 
-		Task<CreateUserDto> EditUser(int id, string username, string password);
+		Task<CreateUserDto> EditUser(int id, string username, string password, int solshards);
 
 		// delete user
 

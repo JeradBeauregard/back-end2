@@ -84,5 +84,11 @@ namespace testapp.Controllers
 
 
 		}
+
+		public async Task<IActionResult> UpdateQuantity(int id, int quantity)
+		{
+			await _inventoryService.UpdateQuantity(id, quantity);
+			return RedirectToAction("List");
+		}
 	}
 }

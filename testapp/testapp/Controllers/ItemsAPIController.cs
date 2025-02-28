@@ -92,9 +92,9 @@ namespace testapp.Controllers
 
 		// GET: api/ItemsAPI/5
 		[HttpGet("{id}")]
-        public async Task<ActionResult<Item>> GetItem(int id)
+        public async Task<ActionResult<ItemDto>> GetItem(int id)
         {
-            Item item = await _itemService.GetItem(id);
+            ItemDto item = await _itemService.GetItem(id);
             return item;
         }
 

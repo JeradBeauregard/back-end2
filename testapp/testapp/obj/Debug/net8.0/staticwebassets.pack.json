@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\wwwroot\\images\\items\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\items\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\wwwroot\\images\\items\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\items\\9.jpg"
+    },
+    {
       "Id": "C:\\Users\\jerad\\Desktop\\back-end2\\testapp\\testapp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

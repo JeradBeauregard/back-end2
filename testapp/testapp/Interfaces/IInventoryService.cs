@@ -12,6 +12,7 @@ namespace testapp.Interfaces
 		Task<IEnumerable<InventoryDto>> ListUserInventory(int userId);
 		Task<IEnumerable<InventoryDto>> ListInventories();
 		Task<InventoryDto> ListInventory(int id);
+		Task<int> TotalAmountofItem(int itemId);
 
 		// Create
 		// add item to inventory
@@ -19,7 +20,9 @@ namespace testapp.Interfaces
 
 		//Update
 		Task<InventoryDto>EditInventory(int id, int userId, int itemId, int quantity);
-		
+
+		Task<string> UpdateQuantity(int id, int quantity);
+
 
 			//Delete
 			// Delete inventory row/entry

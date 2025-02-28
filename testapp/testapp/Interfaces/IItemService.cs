@@ -17,7 +17,7 @@ namespace testapp.Interfaces
 
 		Task<IEnumerable<Item>> GetItems();
 
-		Task<Item> GetItem(int id);
+		Task<ItemDto> GetItem(int id);
 
 		Task<IEnumerable<ItemWithTypesDto>> GetItemsWithTypes();
 
@@ -37,6 +37,9 @@ namespace testapp.Interfaces
 
 		Task<CreateItemDto> EditItem(int id, string name, string description, int value);
 
+		// upload image
+
+		Task<string>AddItemImage(int id,IFormFile image);
 
 
 

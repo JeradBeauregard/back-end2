@@ -88,15 +88,24 @@ namespace testapp.Controllers
 
 		// Edit
 
-		public IActionResult Edit()
+		public async Task<IActionResult> Edit(int id)
 		{
-			return View();
+			User user = await _userService.GetUser(id);
+			return View(user);
 		}
 
-		public async Task<IActionResult> EditUser(int id, string username, string password)
+		public async Task<IActionResult> EditUser(int id, string username, string password,int solshards)
 		{
-			await _userService.EditUser(id, username, password);
-			return RedirectToAction("List");
+			await _userService.EditUser(id, username, password, solshards);
+			return RedirectToAction("Details", new { id = id });
+		}
+
+		public async Task<IActionResult> UpdateQuantity(int id, int quantity)
+		{
+			await _inventoryService.UpdateQuantity(id, quantity);
+			InventoryDto UserId = await _inventoryService.ListInventory(id);
+
+			return RedirectToAction("Details", new { id = UserId.UserId});
 		}
 	}
 }

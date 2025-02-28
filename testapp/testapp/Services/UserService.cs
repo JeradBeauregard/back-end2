@@ -102,11 +102,12 @@ namespace testapp.Services
 
 		// edit an existing user
 
-		public async Task<CreateUserDto> EditUser(int id, string username, string password)
+		public async Task<CreateUserDto> EditUser(int id, string username, string password, int solshards)
 		{
 			User user = await _context.Users.FindAsync(id);
 			user.Username = username;
 			user.Password = password;
+			user.SolShards = solshards;
 			_context.Users.Update(user);
 			await _context.SaveChangesAsync();
 			CreateUserDto createUserDto = new CreateUserDto();

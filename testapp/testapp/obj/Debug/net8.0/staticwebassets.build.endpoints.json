@@ -2387,6 +2387,170 @@
       ]
     },
     {
+      "Route": "images/items/7.423osrrikf.jpg",
+      "AssetFile": "images/items/7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fD3FbrNVO8A42crn9KunqiAIvXRWzL9COyF3yVTOr4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:01:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "423osrrikf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fD3FbrNVO8A42crn9KunqiAIvXRWzL9COyF3yVTOr4o="
+        },
+        {
+          "Name": "label",
+          "Value": "images/items/7.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/items/7.jpg",
+      "AssetFile": "images/items/7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fD3FbrNVO8A42crn9KunqiAIvXRWzL9COyF3yVTOr4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:01:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fD3FbrNVO8A42crn9KunqiAIvXRWzL9COyF3yVTOr4o="
+        }
+      ]
+    },
+    {
+      "Route": "images/items/9.jpg",
+      "AssetFile": "images/items/9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OIIHxIriwcHAmYUk4Rhwvi8nj8QKXXORPEm9GZRWKp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 15:05:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OIIHxIriwcHAmYUk4Rhwvi8nj8QKXXORPEm9GZRWKp8="
+        }
+      ]
+    },
+    {
+      "Route": "images/items/9.kti6t3n1g9.jpg",
+      "AssetFile": "images/items/9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OIIHxIriwcHAmYUk4Rhwvi8nj8QKXXORPEm9GZRWKp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 15:05:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kti6t3n1g9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OIIHxIriwcHAmYUk4Rhwvi8nj8QKXXORPEm9GZRWKp8="
+        },
+        {
+          "Name": "label",
+          "Value": "images/items/9.jpg"
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

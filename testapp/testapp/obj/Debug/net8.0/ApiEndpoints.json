@@ -184,7 +184,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "testapp.Models.Item",
+        "Type": "testapp.Models.ItemDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -653,6 +653,11 @@
       {
         "Name": "password",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "solshards",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

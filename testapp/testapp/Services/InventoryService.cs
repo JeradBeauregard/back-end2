@@ -18,6 +18,16 @@ namespace testapp.Services
 			_userService = userService;
 		}
 
+		// total in existance of an item, in user inventories
+
+		public async Task<int> TotalAmountofItem(int itemId)
+		{
+			int total = await _context.Inventory
+				.Where(i => i.ItemId == itemId)
+				.SumAsync(i => i.Quantity);
+			return total;
+		}
+
 		// list inventory items for a user
 
 		public async Task<IEnumerable<InventoryDto>> ListUserInventory(int userId)
@@ -191,14 +201,34 @@ namespace testapp.Services
 
 		}
 
+		// edit quantity of an inventory entry
 
-			// delete inventory entry
+		public async Task<string> UpdateQuantity(int id, int quantity)
+		{
+			// find inventory entry
+			Inventory inventory = await _context.Inventory.FindAsync(id);
+			int currentQuantity = inventory.Quantity;
+			inventory.Quantity = quantity;
+			await _context.SaveChangesAsync();
+			// update user space based on difference in quantity before and after edit
+			int quantityChange = quantity - currentQuantity;
+			await _userService.updateUserSpace(inventory.UserId, quantityChange);
+			// Delete entry if quantity is less than 1
+			if(inventory.Quantity < 1)
+			{
+				await DeleteInventory(id);
+			}
+			return "quantity updated";
+		}
+
+
+		// delete inventory entry
 
 
 		// delete an inventory entry by id
 		// DELETE: api/InventoriesAPI/5
 
-			public async Task<string> DeleteInventory(int id)
+		public async Task<string> DeleteInventory(int id)
 			{
 				var inventory = await _context.Inventory.FindAsync(id);
 				if (inventory == null)

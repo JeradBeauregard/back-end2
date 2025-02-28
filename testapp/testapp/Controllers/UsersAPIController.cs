@@ -98,9 +98,9 @@ namespace testapp.Controllers
 		//POST: api/UsersAPI/Edit
 
 		[HttpPost("Edit")]
-		public async Task<ActionResult<CreateUserDto>> EditUser(int id, string username, string password)
+		public async Task<ActionResult<CreateUserDto>> EditUser(int id, string username, string password, int solshards)
 		{
-			CreateUserDto result = await _userService.EditUser(id, username, password);
+			CreateUserDto result = await _userService.EditUser(id, username, password, solshards);
 			return result;
 		}
 

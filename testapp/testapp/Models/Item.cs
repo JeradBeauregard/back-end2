@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 
 namespace testapp.Models
 {
@@ -13,6 +14,23 @@ namespace testapp.Models
 
 		public int Value { get; set; }
 
+		public Boolean HasPic { get; set; } = false;
+
+		public string? PicPath { get; set; }
+
+
+		public virtual List<ItemxType> ItemxType { get; set; }
+
+	}
+
+	public class ItemDto
+	{
+		public int Id { get; set; }
+		public string Name { get; set; }
+		public string Description { get; set; }
+		public int Value { get; set; }
+
+		public string? PicPath { get; set; }
 		public virtual List<ItemxType> ItemxType { get; set; }
 	}
 
@@ -56,12 +74,14 @@ namespace testapp.Models
 	// model for item view model (contains item and item types information)
 	public class ItemDetailsViewModel
 	{
-		public Item Item { get; set; }
+		public ItemDto Item { get; set; }
 		public IEnumerable<ItemTypeDto> ItemTypes { get; set; }
 
 		public IEnumerable<ItemType> AllItemTypes { get; set; }
 
 		public IEnumerable<UserByItemDto> UserByItem { get; set; }
+
+		public int TotalAmount { get; set; }
 	}
 
 }

@@ -10,10 +10,12 @@ namespace testapp.Controllers
 		// Dependancy Injection
 		private readonly IItemService _itemService;
 		private readonly IItemTypesService _itemTypesService;
-		public ItemPageController(IItemService itemService, IItemTypesService itemTypesService)
+		private readonly IInventoryService _inventoryService;
+		public ItemPageController(IItemService itemService, IItemTypesService itemTypesService, IInventoryService inventoryService)
 		{
 			_itemService = itemService; // Dependancy Injection: Item Service
 			_itemTypesService = itemTypesService;
+			_inventoryService = inventoryService;
 		}
 
 
@@ -47,7 +49,7 @@ namespace testapp.Controllers
 
 		public async Task<IActionResult> Details(int Id)
 		{
-			Item item = await _itemService.GetItem(Id);
+			ItemDto item = await _itemService.GetItem(Id);
 			
 			IEnumerable<ItemTypeDto> itemTypes = await _itemTypesService.GetTypesForItem(Id);
 
@@ -55,12 +57,15 @@ namespace testapp.Controllers
 
 			IEnumerable<UserByItemDto> users = await _itemService.ListUsersByItem(Id);
 
+			int TotalItems = await _inventoryService.TotalAmountofItem(Id);
+
 			ItemDetailsViewModel itemDetails = new ItemDetailsViewModel
 			{
 				Item = item,
 				ItemTypes = itemTypes,
 				AllItemTypes = allTypes,
-				UserByItem = users
+				UserByItem = users,
+				TotalAmount = TotalItems
 			};
 
 			return View(itemDetails);
@@ -86,7 +91,7 @@ namespace testapp.Controllers
 
 		public async Task<IActionResult> ConfirmDelete(int Id)
 		{
-			Item item = await _itemService.GetItem(Id);
+			ItemDto item = await _itemService.GetItem(Id);
 			return View(item);
 			
 		}
@@ -100,14 +105,17 @@ namespace testapp.Controllers
 
 		
 
-		public IActionResult Edit()
+		public async Task<IActionResult> Edit(int id)
 		{
-			return View();
+
+			ItemDto item = await _itemService.GetItem(id);
+			return View(item);
 		}
 
-		public async Task<IActionResult> EditItem(int id, string name, string description, int value)
+		public async Task<IActionResult> EditItem(int id, string name, string description, int value,IFormFile image )
 		{
 			await _itemService.EditItem(id, name, description, value);
+			await _itemService.AddItemImage(id, image);
 			return RedirectToAction("List");
 		}
 	}
